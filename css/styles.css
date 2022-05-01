@@ -18,6 +18,11 @@
   text-decoration: none;
 }
 
+h1,h2,h3,p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 /*components*/
 
 body {
@@ -36,7 +41,7 @@ img {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.48;
-  /* background-color: gold; */
+ 
   /* outline: 2px solid blue; */
 }
 
@@ -54,6 +59,11 @@ img {
   color: var(--hover-color);
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .conteiner {
   margin-top: 0;
   margin-bottom: 0;
@@ -63,8 +73,7 @@ img {
   padding-right: 15px;
   width: 1200px;
   
-    /* background-color: gold; */
-  /* outline: 2px solid blue; */
+   /* outline: 2px solid blue; */
 }
 
 
@@ -130,7 +139,6 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
 
-  /* background-color: gold; */
   /* outline: 2px solid blue; */
 }
 .menu-link:hover,
@@ -178,12 +186,10 @@ img {
   background-color: var(--background-hero);
   
 }
-.hero-content {
-    max-width: 700px;
-    
-}
 
 .hero-title {
+  margin-bottom: 30px;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -191,12 +197,7 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-
-  margin-top: 0;
-  margin-bottom: 30px;
-  padding: 0;
- 
-  /* background-color: gold; */
+     
   /* outline: 2px solid blue; */
 }
 
@@ -222,7 +223,7 @@ img {
 /*preferens*/
 .preferens {
   padding-top: 94px;
-  padding-bottom: 94px;
+  /* padding-bottom: 94px; */
   background-color: var(--background-section);
 }
 .preferens-list {
@@ -243,7 +244,6 @@ img {
 /*about*/
 
 .about {
-    padding-bottom: 94px;
   background-color: var(--background-section);
 }
 
@@ -253,9 +253,7 @@ img {
 }
 
 /*tim*/
-.tim {
-  padding-top: 94px;
-  padding-bottom: 94px;
+.tim {  
   background-color:var(--background-tim);
  }
 
@@ -306,7 +304,6 @@ img {
   padding: 60px 0;
   background: var(--background-footer);
 
-
 }
 address {
   text-decoration: none;
@@ -342,8 +339,7 @@ address {
 /*Filter*/
 
 .filter {
-  padding-top: 94px;
-  padding-bottom: 50px;
+   padding-bottom: 50px;
  
 }
 
@@ -379,14 +375,7 @@ address {
   color: #ffffff;
 }
 
-
-
 /*Work*/
-
-.portfolio {
-  margin-top: 0;
-  margin-bottom: 94px;
-}
 
 .work {
   display: flex;
@@ -397,7 +386,7 @@ address {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
-  border: 1px solid #EEEEEE;
+  
 
 }
  .work-unit:nth-child(3n) {
@@ -408,9 +397,8 @@ address {
 }
 
 .work-name {
-  margin-top: 20px;
-  margin-bottom: 0;
-  margin-left: 24px;
+  padding-left: 24px;
+  padding-top: 20px;
 
   font-size: 18px;
   line-height: 2;
@@ -418,12 +406,18 @@ address {
 }
 
 .work-text {
-  margin-top: 4px;
-  margin-bottom: 20px;
-  margin-left: 24px;
+  padding-left: 24px;
+  padding-top: 4px;
+  padding-bottom: 20px;
 
   font-size: 16px;
   line-height: 1.88;
   color: #757575;
 }
 
+.border {
+  border-left: 1px solid #EEEEEE;
+  border-right: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
+
+}
